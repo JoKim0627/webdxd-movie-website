@@ -1,0 +1,143 @@
+/*default style*/
+html {
+	background: url(../img/back6.jpg) no-repeat;
+
+	background-size: cover;
+
+	background-color:#020813; 
+}
+nav {
+	background-color: rgba(0,0,0, 0.4);
+	color: #fff;
+	height: 60px;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+/*helper style*/
+.center {
+	text-align: center;
+}
+.red {
+	color: red;
+}
+
+/*other style*/
+.nav-bar li {
+	display: inline-block;
+}
+
+.nav-bar {
+	margin: 0;
+	padding: 0;
+	float: right;
+
+}
+.nav-bar li {
+	border: 1px solid white;
+	margin: 10px;
+	/*space between a and another object*/
+	padding: 10px;
+	/*space between text context and border */
+	transition: background-color .5s linear, margin .5s linear;
+}
+.nav-bar li:hover {
+	margin: 20px;
+	background-color: rgba(255,255,255,0.5);
+	cursor:pointer;
+}
+.nav-logo {
+	width: 80px;
+	height: 50px;
+	margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.home-title {
+	font-family: 'Sansita One', cursive;
+	font-size: 60px;
+	color: white;
+}
+
+.full-width {
+	width: 100%;
+	margin:0;
+}
+
+.posters {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+.posters div{
+ 	display: inline-block;
+	width:29%;
+	height:700px;
+	/*height:700px;*/
+	margin:1%;
+	border: 7px solid white;
+	position: relative;
+	transition: all .5s linear;
+}
+.posters div:hover {
+	width: 32%;
+	height: 730px;
+	margin:0;
+}
+
+.posters div img {
+	width: 100%;
+	filter: brightness(50%);
+	-webkit-filter: brightness(70%);
+	height:100%;
+	
+
+}
+
+.posters h3 {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	color: white;
+	font-size: 2rem;
+	text-align: center;
+	width:100%;
+	margin: 0;
+	transform: translateY(-50%);
+
+
+
+}
+
+footer {
+	color: white;
+	text-align: center;
+	/*background-color: #020813;*/
+	background-color: rgba(0,0,0, 0.5);
+}
+footer ul {
+	margin: 0;
+	padding: 20px 0;
+}
+footer ul li {
+	display: inline-block;
+	margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
