@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact | WebDxD Movie</title>
+	<link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	
+</head>
+<body>
+	<nav>
+		<img class = "nav-logo" src="img/logo3.png" alt="Logo">
+		<ul class = "nav-bar">
+			<!-- order list -->
+			<a href="index.html"><li>Home</li></a>
+			<a href="ticket.html"><li>Ticket</li></a>
+			<a href="company.html"><li>About</li></a>
+			<a href="contact.html"><li>Contact</li></a>
+			
+		</ul>
+	</nav>	
+	<form class ="contact-form center" >
+		<h1 class="center">Contact Us</h1>
+		<!-- normal input -->
+		<input class="form-control" type="text" name ="name" placeholder="Name">
+		<input class="form-control" type="text" name ="email" placeholder="Email">
+		<input class="form-control" type="text" name ="phone" placeholder="Phone Number">
+
+		<!-- dropdown menu -->
+		<!-- <select class="selectwidth ">
+			<option value = "general-questions">General Questions</option>
+			<option value = "Pricing">Pricing</option>
+		</select> -->
+
+		<select multiple class="form-control">
+ 			<option value = "general-questions">General Questions</option>
+			<option value = "Pricing">Pricing</option>
+ 			
+		</select>
+
+
+		<!-- radio -->
+		<label for="gender">Gender:</label><br>
+		
+	
+
+		<label class="radio-inline">
+		<input type="radio" name="inlineRadioOptions" value="male"> Male
+		</label>
+		<label class="radio-inline">
+		  <input type="radio" name="inlineRadioOptions" value="female">Female
+		</label>
+		<label class="radio-inline">
+		  <input type="radio" name="inlineRadioOptions" value="others">Others
+		</label>
+
+		<!-- paragraph -->
+		<textarea class="form-control" name = "message" placeholder="Message"></textarea>
+
+	<label class="checkbox-inline"><input type="checkbox"> I have read terms and conditions.</label>
+		<!-- submit -->
+		<input class= "primary-btn" type="submit" value="Send">
+	</form>
+	
+
+</body>
+
+</html>
